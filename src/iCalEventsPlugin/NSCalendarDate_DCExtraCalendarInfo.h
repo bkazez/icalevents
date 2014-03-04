@@ -3,7 +3,6 @@
   iCalEventsPlugin
 
   Created by Dan Charney on 5/24/07.
-  Copyright 2007 drmoose.net. All rights reserved.
 */
 
 #ifndef DRMOOSE_DOT_NET__NSCalendarDate_h

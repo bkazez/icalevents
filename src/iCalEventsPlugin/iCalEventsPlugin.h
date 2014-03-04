@@ -3,7 +3,6 @@
   iCal Events
 
   Created by Ben Kazez in May 2005.
-  Copyright 2007 Dan Charney. All rights reserved.
 */
 
 #import <Cocoa/Cocoa.h>
