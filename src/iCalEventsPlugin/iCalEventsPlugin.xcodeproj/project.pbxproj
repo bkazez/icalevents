@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198E71D3075EAD5F002FFDE7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198E71CD075EAD5F002FFDE7 /* WebKit.framework */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		BE4E800F097712230015095C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4E800E097712230015095C /* AddressBook.framework */; };
+		BEA1CB03082D41E7008632F4 /* iCalEventsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1CB02082D41E7008632F4 /* iCalEventsPlugin.m */; };
+		BEC5A8C70CD80D1F002AB029 /* IEPCalendarStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC5A8C60CD80D1F002AB029 /* IEPCalendarStore.m */; };
+		BEC5A8CA0CD80D39002AB029 /* IEPCalendarStoreTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC5A8C90CD80D39002AB029 /* IEPCalendarStoreTiger.m */; };
+		BEC5A8CD0CD80D45002AB029 /* IEPCalendarStoreLeopard.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC5A8CC0CD80D45002AB029 /* IEPCalendarStoreLeopard.m */; };
+		BEC5ABCB0CD823D4002AB029 /* IEPCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC5ABCA0CD823D4002AB029 /* IEPCommon.m */; };
+		BEC5ACA10CD8362E002AB029 /* NSColor_IEPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC5ACA00CD8362E002AB029 /* NSColor_IEPAdditions.m */; };
+		D34E226F0C050D160041BF23 /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D34E226D0C050D160041BF23 /* HelperFunctions.m */; };
+		D34FE2B00C05EE28004BE534 /* NSCalendarDate_DCExtraCalendarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D34FE2AE0C05EE28004BE534 /* NSCalendarDate_DCExtraCalendarInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		198E71CD075EAD5F002FFDE7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		8D5B49B6048680CD000E48DA /* iCalEventsPlugin.widgetplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalEventsPlugin.widgetplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4E800E097712230015095C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		BEA1CB01082D41E7008632F4 /* iCalEventsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iCalEventsPlugin.h; sourceTree = "<group>"; };
+		BEA1CB02082D41E7008632F4 /* iCalEventsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = iCalEventsPlugin.m; sourceTree = "<group>"; };
+		BEA1CB04082D41F0008632F4 /* iCalEventsPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iCalEventsPlugin_Prefix.pch; sourceTree = "<group>"; };
+		BEC5A8C50CD80D1F002AB029 /* IEPCalendarStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEPCalendarStore.h; sourceTree = "<group>"; };
+		BEC5A8C60CD80D1F002AB029 /* IEPCalendarStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEPCalendarStore.m; sourceTree = "<group>"; };
+		BEC5A8C80CD80D39002AB029 /* IEPCalendarStoreTiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEPCalendarStoreTiger.h; sourceTree = "<group>"; };
+		BEC5A8C90CD80D39002AB029 /* IEPCalendarStoreTiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEPCalendarStoreTiger.m; sourceTree = "<group>"; };
+		BEC5A8CB0CD80D45002AB029 /* IEPCalendarStoreLeopard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEPCalendarStoreLeopard.h; sourceTree = "<group>"; };
+		BEC5A8CC0CD80D45002AB029 /* IEPCalendarStoreLeopard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEPCalendarStoreLeopard.m; sourceTree = "<group>"; };
+		BEC5ABC90CD823D4002AB029 /* IEPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEPCommon.h; sourceTree = "<group>"; };
+		BEC5ABCA0CD823D4002AB029 /* IEPCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEPCommon.m; sourceTree = "<group>"; };
+		BEC5AC9F0CD8362E002AB029 /* NSColor_IEPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSColor_IEPAdditions.h; sourceTree = "<group>"; };
+		BEC5ACA00CD8362E002AB029 /* NSColor_IEPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSColor_IEPAdditions.m; sourceTree = "<group>"; };
+		D34E226C0C050D160041BF23 /* HelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperFunctions.h; sourceTree = "<group>"; };
+		D34E226D0C050D160041BF23 /* HelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperFunctions.m; sourceTree = "<group>"; };
+		D34FE2AD0C05EE28004BE534 /* NSCalendarDate_DCExtraCalendarInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCalendarDate_DCExtraCalendarInfo.h; sourceTree = "<group>"; };
+		D34FE2AE0C05EE28004BE534 /* NSCalendarDate_DCExtraCalendarInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCalendarDate_DCExtraCalendarInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				198E71D3075EAD5F002FFDE7 /* WebKit.framework in Frameworks */,
+				BE4E800F097712230015095C /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iCalEventsPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = iCalEventsPlugin;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BEC5ABC90CD823D4002AB029 /* IEPCommon.h */,
+				BEC5ABCA0CD823D4002AB029 /* IEPCommon.m */,
+				BEA1CB01082D41E7008632F4 /* iCalEventsPlugin.h */,
+				BEA1CB02082D41E7008632F4 /* iCalEventsPlugin.m */,
+				D34FE2AD0C05EE28004BE534 /* NSCalendarDate_DCExtraCalendarInfo.h */,
+				D34FE2AE0C05EE28004BE534 /* NSCalendarDate_DCExtraCalendarInfo.m */,
+				BEC5A8C50CD80D1F002AB029 /* IEPCalendarStore.h */,
+				BEC5A8C60CD80D1F002AB029 /* IEPCalendarStore.m */,
+				BEC5A8C80CD80D39002AB029 /* IEPCalendarStoreTiger.h */,
+				BEC5A8C90CD80D39002AB029 /* IEPCalendarStoreTiger.m */,
+				BEC5A8CB0CD80D45002AB029 /* IEPCalendarStoreLeopard.h */,
+				BEC5A8CC0CD80D45002AB029 /* IEPCalendarStoreLeopard.m */,
+				BEC5AC9F0CD8362E002AB029 /* NSColor_IEPAdditions.h */,
+				BEC5ACA00CD8362E002AB029 /* NSColor_IEPAdditions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E800E097712230015095C /* AddressBook.framework */,
+				198E71CD075EAD5F002FFDE7 /* WebKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* iCalEventsPlugin.widgetplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D34E226C0C050D160041BF23 /* HelperFunctions.h */,
+				D34E226D0C050D160041BF23 /* HelperFunctions.m */,
+				BEA1CB04082D41F0008632F4 /* iCalEventsPlugin_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* iCalEventsPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE278358085A75F80096EAFE /* Build configuration list for PBXNativeTarget "iCalEventsPlugin" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCalEventsPlugin;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = iCalEventsPlugin;
+			productReference = 8D5B49B6048680CD000E48DA /* iCalEventsPlugin.widgetplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BE27835C085A75F80096EAFE /* Build configuration list for PBXProject "iCalEventsPlugin" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* iCalEventsPlugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* iCalEventsPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA1CB03082D41E7008632F4 /* iCalEventsPlugin.m in Sources */,
+				D34E226F0C050D160041BF23 /* HelperFunctions.m in Sources */,
+				D34FE2B00C05EE28004BE534 /* NSCalendarDate_DCExtraCalendarInfo.m in Sources */,
+				BEC5A8C70CD80D1F002AB029 /* IEPCalendarStore.m in Sources */,
+				BEC5A8CA0CD80D39002AB029 /* IEPCalendarStoreTiger.m in Sources */,
+				BEC5A8CD0CD80D45002AB029 /* IEPCalendarStoreLeopard.m in Sources */,
+				BEC5ABCB0CD823D4002AB029 /* IEPCommon.m in Sources */,
+				BEC5ACA10CD8362E002AB029 /* NSColor_IEPAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE278359085A75F80096EAFE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCalEventsPlugin_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = BKDEBUG;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Widgets/;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = iCalEventsPlugin;
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = widgetplugin;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		BE27835A085A75F80096EAFE /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iCalEventsPlugin_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Widgets/;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				PRODUCT_NAME = iCalEventsPlugin;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = widgetplugin;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		BE27835D085A75F80096EAFE /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		BE27835E085A75F80096EAFE /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE278358085A75F80096EAFE /* Build configuration list for PBXNativeTarget "iCalEventsPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE278359085A75F80096EAFE /* Development */,
+				BE27835A085A75F80096EAFE /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		BE27835C085A75F80096EAFE /* Build configuration list for PBXProject "iCalEventsPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE27835D085A75F80096EAFE /* Development */,
+				BE27835E085A75F80096EAFE /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--
+iCalEvents.js
+Copyright 2007 Ben Kazez
+
+XHTML file for iCal Events widget. Note: Please do not reuse the included 
+iCalEventsPlugin without first emailing me for permission. Thank you.
+-->
+<html>
+<head>
+<title>iCal Events</title>
+<style type="text/css">
+	@import "iCalEvents.css";
+</style>
+
+<script type="text/javascript" src="AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+<script type="text/javascript" src="AppleClasses/AppleButton.js" charset="utf-8"></script>
+<script type="text/javascript" src="AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+<script type="text/javascript" src="AppleClasses/AppleScrollArea.js" charset="utf-8"></script>
+<script type="text/javascript" src="AppleClasses/AppleScrollbar.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="LocalizedStrings.js" charset="utf-8"></script>
+<script type="text/javascript" src="ArrayExtension.js"></script>
+
+<script type="text/javascript" src="iCalEvents.js" charset="utf-8"></script>
+<script type="text/javascript" src="Preferences.js" charset="utf-8"></script>
+<script type="text/javascript" src="Resizer.js"></script>
+</head>
+
+<body onload="setup();">
+
+<div id="front">
+
+	<div id="bgTopLeft"></div>
+	<div id="bgTopRight"></div>
+	<div id="bgBottomLeft"></div>
+	<div id="bgBottomRight"></div>
+	<div id="bgTopEdge"></div>
+	<div id="bgLeftEdge"></div>
+	<div id="bgBottomEdge"></div>
+	<div id="bgRightEdge"></div>
+	<div id="bgMiddle"></div>
+
+	<div id="header"></div>
+	
+	<div id="contentBorder"></div>
+	<div id="paperWrapper">
+		<div id="paper"></div>
+	</div>
+	<div id="myScrollBar"></div>
+	
+	<div id="location"></div>
+	<div id="infoButton"></div>
+	<img id="resizer" src="/System/Library/WidgetResources/resize.png" onmousedown="mouseDown(event);" />
+</div>
+
+<div id="back">
+	<img class="backgroundImage" src="Images/Default_reverse.png">
+	<div id="calendarsLabel"></div>
+	<div id="calendarBox"></div>
+	
+	<div id="dateRangePopupLabel"></div>
+	<select id="dateRangePopup" onchange="changeDateRange(this);"></select>
+	
+	<div id="iCalEventsText"></div>
+	<div id="checkVersion" onclick="gotoURL('http://benkazez.com/icalevents');"></div>
+	<div id="done"></div>
+</div>
+
+</body>
+
+</html>

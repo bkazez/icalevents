@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowSystem</key>
+	<true/>
+	<key>BackwardsCompatibleClassLookup</key>
+	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>iCal Events</string>
+	<key>CFBundleGetInfoString</key>
+	<string>2.3, Copyright © 2007 Ben Kazez</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.benkazez.widget.icalevents</string>
+	<key>CFBundleName</key>
+	<string>iCal Events</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.3</string>
+	<key>CFBundleVersion</key>
+	<string>2.3</string>
+	<key>CloseBoxInsetX</key>
+	<integer>9</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>7</integer>
+	<key>MainHTML</key>
+	<string>iCalEvents.html</string>
+	<key>Plugin</key>
+	<string>iCalEventsPlugin.widgetplugin</string>
+</dict>
+</plist>

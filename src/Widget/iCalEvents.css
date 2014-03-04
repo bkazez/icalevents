@@ -1,0 +1,350 @@
+/*
+iCalEvents.css
+Copyright 2007 Ben Kazez
+*/
+
+body {
+	margin:0;
+	/* work around a WebKit/Dashboard bug */
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+
+a, a:active, a:visited, a:hover {
+	color:#fff;
+	cursor:hand;
+}
+
+#header {
+	font:bold 12px "Helvetica Neue";
+	text-align:center;
+	color:#999;
+	position:absolute; 
+	top:14px; 
+	left:20px;
+	right:20px;
+	height:14px;
+	overflow:hidden;
+}
+
+#calendarTitle {
+	font:16px "Helvetica Neue";
+	color:#fff;
+}
+
+/* Resizable background */
+/* Corners */
+#bgTopLeft {
+	background:url(Images/bg/top_left.png) no-repeat top left;
+	position:absolute;
+	top:0;
+	left:0;
+	width:18px;
+	height:15px;
+}
+
+#bgTopRight {
+	background:url(Images/bg/top_right.png) no-repeat top left;
+	position:absolute;
+	top:0;
+	right:0;
+	width:18px;
+	height:15px;
+}
+
+#bgBottomLeft {
+	background:url(Images/bg/bottom_left.png) no-repeat top left;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:18px;
+	height:22px;
+}
+
+#bgBottomRight {
+	background:url(Images/bg/bottom_right.png) no-repeat top left;
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:18px;
+	height:22px;
+}
+
+/* Edges */
+#bgTopEdge {
+	background:url(Images/bg/top_edge.png) repeat-x top left;
+	position:absolute;
+	top:0;
+	left:18px;
+	right:18px;
+	height:15px;
+}
+
+#bgLeftEdge {
+	background:url(Images/bg/left_edge.png) repeat-y top left;
+	position:absolute;
+	left:0;
+	top:15px;
+	bottom:22px;
+	width:18px;
+}
+
+#bgBottomEdge {
+	background:url(Images/bg/bottom_edge.png) repeat-x top left;
+	position:absolute;
+	bottom:0;
+	left:18px;
+	right:18px;
+	height:22px;
+}
+
+#bgRightEdge {
+	background:url(Images/bg/right_edge.png) repeat-y top left;
+	position:absolute;
+	right:0px;
+	top:15px;
+	bottom:22px;
+	width:18px;
+}
+
+/* Middle background */
+#bgMiddle {
+	background:#000;
+	position:absolute;
+	top:15px;
+	left:18px;
+	bottom:22px;
+	right:18px;
+}
+
+/* Resizer */
+#resizer {
+	position:absolute;
+	right:9px;
+	bottom:14px;
+	padding:1px 10px 9px 1px;
+	-apple-dashboard-region:dashboard-region(control rectangle);
+}
+
+/* Info button */
+#infoButton {
+	position:absolute;
+	left:18px;
+	bottom:22px;
+	height:13px;
+}
+
+#contentBorder {
+	position:absolute;
+	top:31px;
+	right:15px;
+	bottom:38px;
+	left:15px;
+	border-top:1px solid rgb(31, 31, 31);
+	border-bottom:1px solid rgb(31, 31, 31);
+}
+
+/* Parent div for scroller */
+#paperWrapper {
+	position:absolute;
+	overflow:hidden;
+	top:32px;
+	left:20px;
+	right:20px;
+	bottom:39px;
+}
+
+#paper {
+	font:12px "Helvetica Neue";
+	color:#cf0;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:21px;
+	background-color:#000;
+	text-align:center;
+}
+
+#paper p {
+	margin:4px 0 0 0;
+	font-weight:bold
+}
+
+#paper td {
+	font-weight:normal;
+	padding-bottom:1px;
+	text-align:left;
+	vertical-align:top;
+	color:#fff;
+}
+
+#paper td.eventSummary {
+	text-align:left;
+	font:12px "Helvetica Neue";
+	width:100%;
+}
+#paper td.eventSummary:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.dateHeader {
+	font:bold 16px "Helvetica Neue";
+	color:#cf0;
+	text-align:left;
+	margin:3px 0 2px 0;
+}
+
+.calendarColor {
+	display:block;
+	width:8px;
+	height:8px;
+	margin:3px 6px 3px 6px;
+}
+
+.eventTime {
+	display:block;
+	font:bold 12px "Helvetica Neue";
+	width:54px;
+	height:13px;
+	white-space:nowrap;
+	text-align:right;
+}
+
+#location {
+	position:absolute;
+	left:35px;
+	right:29px;
+	bottom:21px;
+	height:15px;
+	font:12px "Helvetica Neue";
+	color:#999;
+	overflow:hidden;
+}
+
+#locationText {
+	font-weight:normal
+}
+
+#locationLabel {
+	font-weight:bold
+}
+
+#back {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:292px;
+	height:201px;
+}
+
+/* Calendar chooser */
+
+#calendarsLabel {
+	position:absolute;
+	font:bold 10px "Helvetica Neue";
+	color:#fff;
+	top:48px;
+	left:23px;
+}
+
+/* calendar chooser; like NSScrollView */
+#calendarBox {
+	position:absolute;
+	font:10px "LucidaGrande";
+	top:61px;
+	left:23px;
+	width:243px;
+	bottom:55px;
+	border-top:1px solid #8e8e8e;
+	border-bottom:1px solid #bebebe;
+	border-left:1px solid #bebebe;
+	background-color:#fff;
+	padding:2px;
+	overflow:auto; /* scroll as needed */
+	-apple-dashboard-region:dashboard-region(control rectangle);
+}
+
+#calendarBox td {
+	vertical-align:top;
+	padding:1px;
+}
+
+.calendarName {
+	padding:1px 0 0 3px;
+}
+
+/* Checkboxes */
+
+.chkbxWrapper {
+	width:14px;
+	height:15px;
+}
+
+.chkbxShadow {
+	background:url(Images/chkbx/shadow.png) no-repeat top left;
+}
+
+.chkbx {
+	background:url(Images/chkbx/chkbx.png) no-repeat top left;
+	width:14px;
+	height:15px;
+}
+
+.check {
+	width:14px;
+	height:15px;
+}
+
+/* Date range popup */
+
+#dateRangePopupLabel {
+	position:absolute;
+	font:bold 10px "Helvetica Neue";
+	color:#fff;	
+	top:13px;
+	left:23px;
+}
+
+#dateRangePopup {
+	position:absolute;
+	font:11px "LucidaGrande";
+	top:24px;
+	left:20px;
+}
+
+#done {
+	position:absolute;
+	bottom:22px;
+	right:20px;
+}
+
+#iCalEventsText {
+	font:bold 11px "Helvetica Neue";
+	position:absolute;
+	bottom:36px;
+	left:23px;
+	color:#fff;
+}
+
+#checkVersion {
+	font:10px "Helvetica Neue";
+	position:absolute;
+	bottom:27px;
+	left:23px;
+	height:11px;
+	color:#fff;
+	text-decoration:underline;
+	cursor:hand;
+}
+
+/* Scroll bar */
+#myScrollBar {
+	position:absolute;
+	right:18px;
+	top:34px;
+	bottom:42px;
+	width:19px;
+}

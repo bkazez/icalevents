@@ -1,0 +1,92 @@
+2.2.2
+
+Fixed time zone support. (hopefully!)
+Added Thai localization.
+
+2.2.1
+
+Fixed a bug with events set to repeat on a weekday of the month.
+Fixed a bug with events set to repeat until a certain date.
+Fixed a bug with certain special characters in the Notes field.
+Updated Catalan, Croation, Dutch, Hungarian, Norwegian, Portuguese, Brazilian Portuguese, and Serbian localizations.
+
+2.2
+
+Added support for the Birthdays calendar.
+Displays today's date in the header.
+Clicking an event (except birthdays) now highlights that event in iCal.
+Displays event notes in a tooltip when the mouse is over the event name.
+Observes iCal's time zone settings, if enabled in iCal.
+Fixed a bug that caused the widget to be unable to load some calendars.
+Runs natively on Intel Macs.
+
+2.1.5
+
+Fixed crash when deleting calendars.
+Fixed bug with displaying nameless events.
+Added Catalan localization.
+Improved scroll wheel support.
+
+2.1.4
+
+Added Hungarian localization.
+Fixed bug with Daylight Saving Time support.
+
+2.1.3
+
+Added Latvian localization
+Added Albanian localization
+Fixed bug with recurrence IDs
+
+2.1.2
+
+Fixed scroll wheel support
+Reduced memory usage
+Improved performance
+Fixed several crashes
+Added Bosnian, Mexican Spanish, and Russian localizations
+
+2.1.1
+
+Fixed a crash at widget startup (zero-length durations)
+
+2.1
+
+Fixed a bug where events from certain calendars did not appear
+Fixed a bug with scrolling calendar list
+Added timezone support
+Resizable
+Relative dates
+Added _____ localizations
+Reduced memory usage
+Added support for scrolling with the scroll wheel
+All-day events
+Now displays upcoming events until they end
+
+2.02
+
+Fixed crash when viewing prefs
+Added Chinese (simplified and traditional), Croatian, Dutch, German, Greek, Italian, Portuguese, Serbian, and Spanish localizations
+
+2.01
+
+Added Croatian, Dutch, German, Greek, Italian, Portuguese, Serbian, and Spanish localizations
+
+2.0
+
+View events from multiple calendars in the same widget
+See up to two weeks of upcoming events
+Dates and times now automatically appear in your language and format
+French localization by Jérémie Ecoffey
+Fixed a bug where events on certain calendars didn't appear
+Fixed an issue with quotation marks not appearing correctly
+Fixed a text clipping bug with calendar names
+
+1.01
+
+Added support for WKST != SU
+Fixed nil string issues in unescapeString:
+
+1.0
+
+Initial release
